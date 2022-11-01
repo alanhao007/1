@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Adamina', serif;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.head--hotbar{
+    background-color: #09C2AE;
+}
+.head-menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.head-menu-hotbar{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.head-menu-text{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding: 0px 26px;
+
+}
+.head--logo{
+    padding-right:60px ;
+}
+.head--sec{
+	background-image: linear-gradient(to right, #02ae9d, #12dcc4) ;
+z-index: -1;
+}
+.head--background{
+    background-image: url(../img/Group\ 1\ \(1\).svg);
+}
+.head-menu-button-one{
+    font-size: 16px;
+    color: white;
+    padding: 10px 46px;
+    border-radius: 6px;
+    background: #575445;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.head-menu-button-two{
+    font-size: 16px;
+    color: white;
+    padding: 10px 46px;
+    background: #575445;
+    border-radius: 6px;
+    margin-left: 20px;
+    border: none;
+}
+.head-menu-button-two::after{
+    content: "0";
+    padding: 0px 6px;
+    background: white;
+    color: #575445;
+    border-radius: 50%;
+    background-color: white;
+}
+.head-button-text{
+    margin: 0px 3px;
+    font-family: 'Poppins', sans-serif;
+}
+.head{
+    height: 100vh;
+    /* background-image: linear-gradient(#07baa57e) url(../img/Group\ 1.svg); */
+
+}
+.head-coll-predescription{
+    color: white;
+    font-family: 'Adamina', serif;
+    font-size: 50px;
+}
+.head-coll-title{
+    font-family: 'Abel', serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+.head-title{
+    font-family: 'Adamina', serif;
+    font-size: 53px;
+    color: white;
+}
+.title{
+    font-family: 'Adamina', serif;
+}
+.head-coll-description{
+    font-family: 'Adamina', serif;
+    font-size: 18px;
+    color: white;
+}
+.head-logoes{
+    display: flex;
+}
+.logo{
+    padding: 60px 50px 85px 50px;
+}
+.head-start{
+    background: #09C2AE;
+    color: white;
+    font-size: 31px;
+    font-family: 'Poppins', serif;
+    border: none;
+    border-radius: 20px;
+    padding: 21px 40px;
+}
+.head--main--title{
+    text-align: center;
+}
